@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(passport.initialize());
 
 mongoose
-    .connect("mongodb+srv://admin:admin123@cluster0.p81nhm2.mongodb.net/", {
+    .connect("mongodb+srv://admin:ХЪ@cluster0.p81nhm2.mongodb.net/", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
